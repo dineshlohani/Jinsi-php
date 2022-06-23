@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-family: sans-serif; font-size:1.5em; background:#4267b2;}
+
+#top_wrap{ background:#4267b2; padding-top:.2em; padding-bottom:.1em;}
+#top_wrap h1{ color:#fff; line-height:170%; font-size:130%; margin-top:0em;}
+#top_wrap .title{ text-align:center;}
+.myFlag{ margin-left:1em;}
+
+#top_wrap1{ background:#4267b2; padding-top:.5em; padding-bottom:.2em; overflow:hidden}
+#top_wrap1 h1{ color:#fff; line-height:180%; font-size:100%; text-align:right  }
+#top_wrap1 .title{ color:#FF9900; float:left; padding-right:1.9em;  }
+#top_wrap1 .toplink{ float:right; margin-top:.3em}
+#top_wrap1 .toplink ul{ text-align:right; list-style:none; font-size:65%;}
+#top_wrap1 .toplink ul li{ line-height:100%; float:right; margin-right:.5em; padding-left:.5em; padding-right:.5em;}
+#top_wrap1 .toplink ul li a{ color:#fff; text-decoration:none;}
+#top_wrap1 .toplink ul li a:hover{ color:#fff; text-decoration:underline }
+
+
+#body_wrap{ background:#e9ebee; padding-top:1em; padding-bottom:1em;}
+.loginwrap{ background:#c6c8cc; width:15em; margin:0 auto; padding-bottom:1em; border-radius:.1em}
+.loginwrap h2{ background:#4267b2; color:#FFFFFF; font-size:120%; text-align:center; line-height:200%; border-radius:.1em}
+.logo{ text-align:center; padding:1em; margin:0 auto;  } 
+#inputplaceholder{ padding-left:1em; padding-right:1em;}
+#myusername{ background:url(../images/user_icon.png) no-repeat 0 0.08em; padding-left:1em; border-bottom:1px solid #d1d3d6; margin-bottom:.3em;}
+#myusername input[type="text"]{ background:none; border:none; outline:none; color:#000; font-size:70%; width:100%;}
+
+#mypassword{ background:url(../images/password_icon.png) no-repeat 0 .08em; padding-left:1em; border-bottom:1px solid #d1d3d6; margin-bottom:.3em;}
+#mypassword input[type="password"]{ background:none; border:none; outline:none; color:#000; font-size:70%; width:100%;}
+
+#keeplogin label{ color:#000; font-size:65%;}
+
+#login{ background:#6eb7a8;}
+.loginwrap input[type="submit"]{ background:#4267b2; color:#FFFFFF; cursor:pointer; border:none; width:100%; font-size:90%; padding-top:.5em; padding-bottom:.5em; border-radius:.1em}
+.loginwrap input[type="submit"]:hover{ background:#314a7e; color:#FFFFFF; cursor:pointer; border:none; width:100%; font-size:90%;}
+.mainmenu h2{ background:#4267b2;}
+.maincontent h2.dashboard{ background: url(../images/dashboard.png) no-repeat .5em .5em #345089; text-align:center; padding-top:.3em; padding-bottom:.3em; }
+.maincontent h2.dashboard a{ color:#FFFFFF; text-decoration:underline }
+.maincontent h2.dashboard a:hover{ color:#FF9900; text-decoration:none }
+#body_wrap_inner{ background:#fff; padding-bottom:.2em; color:#333333;}
+
+.mainmenu ul li ul li{ font-size:1.2em;}
+
+/*-----dashboard page---*/
+.userprofile{ text-align:center; background:#d6d6d6; border-radius:.2em; padding:1em; width:48.5%; float:left; margin-right:1%; margin-bottom:.3em}
+.userprofile:hover{ background:#e3e3e3}
+.userprofile h3{ font-size:90% !important; font-weight:normal; color:#141414}
+
+.userprofiletable input.submithere[type="submit"]{ background:#4267b2; border:0; padding:.5em 1em; color:#FFFFFF;}
+.userprofiletable input.submithere[type="submit"]:hover{ background:#334f89; cursor:pointer}
+
+.submitnew{ background:#4267b2; border:0; padding:.1em .3em; color:#FFFFFF; display:inline-block}
+.submitnew:hover{ background:#334f89; cursor:pointer; color:#fff}
+.submitnew a{ color:#fff;}
+.submitnew a:hover{ color:#FFFFFF}
+
+.OurContentRight input.submithere[type="submit"]{ background:#4267b2; border:0; padding:.5em 1em; color:#FFFFFF;}
+.OurContentRight input.submithere[type="submit"]:hover{ background:#334f89; cursor:pointer}
+
+.OurContentFarRight{ min-height:600px;}
+
+
+.userprofile a{ color:#141414; text-decoration:none; }
+.userprofile a:hover{ color:#345089; }
+.dashimg a:hover{ opacity:.7}
+
+.userprofile3{ text-align:center; background:#d6d6d6; border-radius:.2em; padding:1em; width:32%; float:left; margin-right:1%; margin-bottom:.3em}
+.userprofile3:hover{ background:#e3e3e3}
+.userprofile3 h4{ font-size:130% !important; font-weight:normal; color:#141414}
+
+.userprofile3 a{ color:#141414; text-decoration:none; }
+.userprofile3 a:hover{ color:#66883f; }
+.dashimg a:hover{ opacity:.5}
+.newspacer{ border-bottom:.5em solid #FF9933; height:.5em; line-height:.5em; clear:both; margin-bottom:.3em; }
+
+/*-----userprofile page----*/
+.maincontent{ width:100%; overflow:hidden; background:#e9ebee}
+.maincontent h2.headinguserprofile{ background:#345089; text-align:center; padding-top:.3em; padding-bottom:.3em; }
+.maincontent h2.headinguserprofile1{ background:#336633; text-align:center;  }
+.headinguserprofile a{ color:#FFFFFF; text-decoration:underline;}
+.headinguserprofile a:hover{ color:#00CCFF;}
+
+.OurContentLeft{ float:left;  width:20%;}
+.OurContentRight{ float:right; display:block; overflow:hidden; background:#fff; width:80%  }
+.OurContentRight h2{ background:#4267b2; text-align:center; border-left:1px solid #fff }
+
+
+.OurContentRight1{ float:left; display:block; overflow:hidden; background:#fff; width:55%;	  }
+.OurContentRight1 h2{ background:#ffa133; text-align:center; }
+.OurContentFarRight{ float:left; display:block;  width:25%;  }
+.farRight{ overflow:scroll;  height:12em; background:#f2f2f1;}
+.farRight table{ font-size:.5em;}
+.farRight td{ padding:.2em .5em;}
+
+
+.userprofiletable{ padding-left:.1em; font-size:65%}
+.userprofiletable input[type="text"]{ width:100%; border:1px solid #9e9e9e; padding:.2em .5em; color:#666666}
+.userprofiletable input[type="text"]:hover{ width:100%; border:1px solid #FF6600; padding:.2em .5em; color:#666666}
+
+.mybutton{ margin-right:1em;}
+
+
+#body_wrap_inner h2{ font-size:80%; line-height:190%; color:#fff; text-indent:.5em; }
+.OurContentRight h3{ font-size:120%; line-height:200%; color:#fff; text-indent:.5em; background:#4267b2; text-align:center }
+#body_wrap_inner .navigation ul{ list-style:none; font-size:70%; }
+#body_wrap_inner .navigation ul li{ line-height:220%; margin-bottom:.15em;}
+#body_wrap_inner .navigation ul li a{ color:#fff; text-decoration:none; background:#334f89; display:block; padding-left:.5em; text-indent:.7em;} 
+#body_wrap_inner .navigation ul li a:hover{ background:#4267b2; color:#FFFFFF;} 
+
+.dashboardcontent{ background:#FFFFFF; overflow:hidden; padding:.3em; border-radius:.1em}
+.mybodycontent h5{ color:#333333; font-size:90%; margin-bottom:.5em; text-align:right}
+.mybodycontent h3{ text-align:center; font-size:100%;}
+.headinghere{ float:left; color:#333; font-size:80%; }
+.subheading{ text-align:center; color:#333; font-size:70%;}
+.mybodycontent .table-responsive{ font-size:70%;}
+
+.myspacer{ height:.3em; line-height:.3em; clear:both}
+.myspacer20{ height:3em; line-height:3em; clear:both}
+.table-borderless{ border:none}
+
+#body_wrap_inner .col{ padding:0 !important;}
+ 
+#footer_wrap{ background:#4267b2; padding-top:.5em; padding-bottom:.5em; font-size:60%; color:#fff;  width:100%;}
+.footer{ text-align:center;}
+.footer a{ color:#FF9933; text-decoration:none;}
+.footer a:hover{ color:#CCCCCC;}
+
+/*------Ekakrit Sampati Kar css---*/
+.myTitle{ text-align:center; clear:both;}
+.myLogo{ text-align:center; float:left; margin-left:1em;}
+.myH1{  font-size:140%; line-height:120%; margin-left:.3em; }
+.myH2{  font-size:70%; margin-left:.3em; }
+.myH3{  font-size:60%; margin-left:.3em;}
+.myH4{  font-size:60%; margin-left:.3em;}
+.myText{  font-size:80%; text-align: center }
+.myTextLeft{  font-size:90%; padding-left:1em;  }
+.myTableborderless{ font-size:63%}
+.myTableborderless td{ border:none; padding:.2em;}
+.myTablebordered{ border:1px; font-size:90%; }
+.myTablebordered th{ font-weight:normal;}
+.myTablebordered1{ border:1px; font-size:.6em; }
+.myTablebordered1 th{ font-weight:normal;}
+.myBox{ padding:.75em;}
+.myLeft{ float:left;}
+.myRight{ float:right;}
+.mySignature{ border-top: 1px solid #666666; padding-top:10px;}
+.myTextalignRight{ text-align:right; margin-right:.5em;}
+.myDate{ font:bold }
+/*------Ekakrit Sampati Kar css ends---*/
+
+
+/*-----settings page ----*/
+.settingsMenuWrap{ background:#fff;color:#FFFFFF; text-align:center;  font-size:.9em; }
+.settingsMenu a{ background: #8228b1;text-decoration:none; display:block; float:left; color:#fff; padding:.2em 1.5em; width:24em; border:#999999 1px solid; margin-right:.5em;}
+.settingsMenu a:hover{ background:#006699; color:#FFFFFF;}
+
+.settingsMenuWrap1{ background:#fff;color:#FFFFFF; text-align:center; margin-left:.2em; font-size:1.2em; }
+.settingsMenu1 a{ background: #8228b1;text-decoration:none; display:block; float:left; color:#fff; padding:.2em 1.5em; width:27em; border:#999999 1px solid; margin-right:.5em;}
+.settingsMenu1 a:hover{ background:#006699; color:#FFFFFF;}
+
+.settingsMenu2 a{ background: #345088;text-decoration:none; display:block; float:left; color:#fff; padding:.2em 1.5em; width:100%; border:#999999 1px solid; margin-right:.5em;}
+.settingsMenu2 a:hover{ background:#4267b2; color:#FFFFFF;}
+
+.myMessage{ display:inline-block; text-indent:1.5em;}
+
+.newMenu ul{ list-style:none;}
+.newMenu ul li{ float:left; margin-right:.5em; margin-bottom:.5em; }
+.newMenu ul li a{ color:#fff; text-decoration:none; background:#304b80;  padding:.5em 1em; display:block; width:15em; border-radius:.1em; }
+.newMenu ul li a:hover{ color:#fff; background:#4267b2;}
+
+/*----new css ----*/
+.printPage{ background: url(../images/print_nepal_emblem_logo.png) no-repeat 0 0; padding:.2em;}
+.printPage h1{ text-align:center; font-size:220%; margin-top:.5em; margin-bottom:.5em;}
+.printPage h4{ text-align:center; font-size:150%; margin-bottom:.5em;}
+.printPage h5{ text-align:center; font-size:120%; margin-bottom:.5em;}
+.patrano{ margin-bottom:.3em;}
+.mydate{ float:right; text-align:right;}
+.subject{ text-align:center; font-weight:bold}
+.bankname{ margin-bottom:.5em;}
+.bankaddress{ margin-bottom:.5em;}
+.banktextdetails{ margin-top:.5em; text-indent:2.5em;}
+.oursignature{ border-top:1px dashed #333333; line-height:200%; float:right; width:15%; text-align:center}
+.oursignatureleft{ border-top:1px dashed #333333; line-height:200%; float:left; width:15%; text-align:center}
+
+.userprofiletable select{ min-width:50%}
+.userprofiletable textarea{ min-width:100%}
+.userprofiletable input[type="text"]{ width:50%;}
+.userprofiletable input[type="text"]:hover{ width:50%;}
+
+#body_wrap_inner h1.myHeading1 { text-align:center; color:#FFFFFF; background:#4267b2; font-size:85%; line-height:180%; border-radius:.1em}
+.OurContentRight h3.myheader:hover{ cursor:pointer; background:#4267b5}
+
+.OurContentRight input[type="text"].input100percent  { width:100% !important;}
+
+
+.add_more { background:#4267b2; border:0; padding:.5em 1em; color:#FFFFFF; display:inline-block}
+.add_more:hover{ background:#30497c; cursor:pointer}
+.remove_more { background:#4267b2; border:0; padding:.5em 1em; color:#FFFFFF; display:inline-block}
+.remove_more:hover{ background:#30497c; cursor:pointer}
+
+
+.add { background:#4267b2; border:0; padding:.5em 2em; color:#FFFFFF; display:inline-block}
+.add:hover{ background:#30497c; cursor:pointer}
+.remove { background:#4267b2; border:0; padding:.5em 2em; color:#FFFFFF; display:inline-block}
+.remove:hover{ background:#30497c; cursor:pointer}
+.marginright20{ margin-left:3em;}
+
+.userprofiletable tr.trMainheading{ background:#4267b2; color:#fff}
+.userprofiletable tr.subtype{ background:#f7f7f7; }
+
+
+
+@media all and (max-width: 600px) {
+.userprofile{ width:100%; margin-bottom:.3em}
+.OurContentLeft, .OurContentRight, .OurContentRight1, .OurContentFarRight{ float:none; width:100%;}
+.settingsMenu a { width:15em !important;}
+}
+@media all and (max-width: 320px) {
+#top_wrap{ width:100%;}
+#body_wrap{ width:100%;}
+.loginwrap h2{ font-size:80%;}
+.loginwrap{ width:100%;}
+#footer_wrap{ font-size:50%; position:static;}
+
+.userprofile{ width:100%; margin-bottom:.3em}
+.OurContentLeft, .OurContentRight, .OurContentRight1, .OurContentFarRight{ float:none; width:100%;}
+.settingsMenu a{ width:10em !important;}
+}
